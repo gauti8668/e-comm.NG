@@ -1,0 +1,54 @@
+/* Apply styles to the entire form container */
+.contact-us {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the form header (e.g., "Contact Us") */
+  .contact-us h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style form labels */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style form input fields */
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style form input fields on focus */
+  .form-group input[type="text"]:focus,
+  .form-group input[type="email"]:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #007bff; /* Change the color to your desired focus color */
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Change the color on hover if desired */
+  }
+  

@@ -1,0 +1,15 @@
+<h2>ShopKart</h2>
+<nav>
+    
+    <ul>
+      <li *ngFor="let item of menuItems" [routerLink]="['/', item.id]">
+        {{ item.name }}
+        <ul *ngIf="item.child">
+          <li *ngFor="let subItem of item.child" [routerLink]="['/', subItem.id]">
+            {{ subItem.name }}
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  
